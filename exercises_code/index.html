@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.1/dist/yeti/bootstrap.min.css"
+    />
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- import the webpage's javascript file -->
+    <script src="script.js"></script>
+    <!-- Title -->
+    <title>Vince Ding | Resume</title>
+  </head>
+
+  <body>
+    <!--  -->
+    <div class="mx-auto mt-5" style="width: 30rem;">
+      <div class="card mb-3" id="cont">
+        <h3 class="card-header">Jquery Animate</h3>
+        <div class="card-body">
+          <h5 class="card-title" id="pcWeb">PCWEB 06</h5>
+          <h6 class="card-subtitle text-muted" id="desC">
+            Intro to Front End Web Development with JavaScript
+          </h6>
+        </div>
+        <!-- Image -->
+        <img
+        style ="width: 80%;"
+          class="card-body mx-auto"
+          id="image"
+          src="
+        https://cdn.glitch.com/ba2669d8-22a2-4ef9-b438-b8e9f427219f%2FprofilePic.png?v=1616069667893
+        "
+        />
+        <div class="card-body">
+          <!-- Name -->
+          <h1 id="title" class="card-title mt-3 text-center">Vince Ding</h1>
+          <p id="body-txt" class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            officia enim commodi saepe ipsum minima?
+          </p>
+        </div>
+
+        <div class="mx-auto mt-3 mb-4 ">
+          <button class="btn btn-outline-dark" onclick="pcwebAnimate()">
+            PCWEB
+          </button>
+          <button class="btn btn-outline-dark" onclick="descAnimate()">
+            DESCRIPTION
+          </button>
+          <button class="btn btn-outline-dark" onclick="imgAnimate()">
+            IMAGE
+          </button>
+          <button class="btn btn-outline-dark" onclick="titleAnimate()">
+            TITLE
+          </button>
+          <button class="btn btn-outline-dark" onclick="bodyAnimate()">
+            BODY
+          </button>
+          <button class="btn btn-outline-dark" onclick="allAnimate()">
+            ALL
+          </button>
+        </div>
+  
+    </div>
+  </body>
+</html>

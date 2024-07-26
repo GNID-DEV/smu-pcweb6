@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="/styles.css" /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.1/dist/yeti/bootstrap.min.css"
+    />
+    <script src="table.js"></script>
+  </head>
+  <body>
+    <!-- -->
+    <!-- Form -->
+    <div class="container p-5 w-50" <div class="form-group">
+      <!-- Title -->
+      <h1>Table Generator</h1>
+      <!-- Column -->
+      <label for="tCol" class="form-label mt-4">Numbers of Column(s)</label>
+      <input
+        type="text"
+        class="form-control"
+        id="tCol"
+        placeholder="Column(s)"
+      />
+      <!-- Row -->
+      <label for="tRow" class="form-label mt-4">Numbers of Row(s)</label>
+      <input type="text" class="form-control" id="tRow" placeholder="Row(s)" />
+      <!-- Submit Button -->
+      <button class="btn btn-outline-dark mt-4" onclick="genTable()">
+        Generate Table
+      </button>
+      <!-- append -->
+      <div class="mt-4" id="result"></div>
+    </div>
+
+    <!--  -->
+    <div class="">
+      <table class="mx-auto" id="newTable">
+        <!-- this is the table to be filled in -->
+      </table>
+    </div>
+  </body>
+</html>
